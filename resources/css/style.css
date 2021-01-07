@@ -1,0 +1,185 @@
+/***************GENERAL***************/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #36393f;
+  font-family: "Roboto", sans-serif;
+}
+
+/***************NAVIGATION MENU***************/
+
+.navigation {
+  padding: 25px 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.65rem;
+  margin-right: 45px;
+}
+
+li img {
+  width: 50px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+/***************MAIN BANNER***************/
+
+main header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 700px;
+  margin-bottom: -130px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff;
+  width: 650px;
+  margin-bottom: 20px;
+}
+
+h1 + p {
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.9;
+  width: 650px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+header button {
+  background-color: #fd6355;
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+header a button {
+  color: #fff;
+  opacity: 1;
+}
+
+/***************FEATURES***************/
+
+.features {
+  background-color: #fd6355;
+  height: 340px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.feature {
+  width: 200px;
+}
+
+.feature i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.feature i:hover {
+  transform: scale(1.2);
+}
+
+.features h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 15px;
+}
+
+.wave {
+  position: absolute;
+}
+
+.temp {
+  height: 280px;
+  background-color: #fd6355;
+}
+
+/***************PREMIUM CTA***************/
+
+.premium-cta {
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.premium-cta h2 {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 50px 0 20px;
+}
+
+.premium-cta p {
+  font-size: 20px;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.premium-cta button {
+  background-color: #fd6355;
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/***************FOOTER***************/
+
+footer {
+  background-color: #2a2c30;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 50px;
+}
